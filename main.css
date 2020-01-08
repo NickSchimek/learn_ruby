@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+#intro {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#intro h1 {
+    margin: 0 15px 0 15px;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    padding: 0;
+    background: #ccc;
+    margin: 5px 0 15px 0;
+}
+
+/*css reset*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
