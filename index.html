@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#eb0f1c">
+    <meta name="apple-mobile-web-app-title" content="Learn Ruby">
+    <meta name="application-name" content="Learn Ruby">
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="theme-color" content="#777777">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Learn Ruby</title>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+<!--     <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('recaptcha_element', {
+          'sitekey' : '6LcWvt4ZAAAAAGlzIcTsJmcFLKbqul-b85Gifzzt'
+        });
+      };
+    </script> -->
+  </head>
+  <body>
+    <img src="images/learn_ruby_logo.png" alt="Learn Ruby logo" height="100" width="100"/>
+
+<h1>
+  Learn Ruby
+</h1>
+
+<a href="https://github.com/nickschimek/learn_ruby/" target="_blank">Edit me on GitHub</a>
+
+<div id="sign-up-form">
+  <label>Sign up for the Newsletter</label>
+  <form action="https://nicks-pa.herokuapp.com/learn_ruby_sign_ups.json" method="POST">
+    <div id="recaptcha_element"></div>
+    <br>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <input type="submit" value="Submit">
+  </form>
+<!--   <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async defer>
+  </script> -->
+</div>
+
+  </body>
+</html>
