@@ -14,14 +14,15 @@ title: Learn Ruby
   target: "_blank"
 ) %>
 
-<div>
+<div id="sign-up-form">
+  <label>Sign up for the Newsletter</label>
   <form action="https://nicks-pa.herokuapp.com/learn_ruby_sign_ups.json" method="POST">
-    <div id="sign-up-form"></div>
+    <div id="recaptcha_element"></div>
     <br>
     <label for="fname">Name:</label><br>
     <input type="text" id="fname" name="fname"><br>
     <label for="femail">Email:</label><br>
-    <input type="text" id="femail" name="femail">
+    <input type="text" id="femail" name="femail"><br>
     <input type="submit" value="Submit">
   </form>
   <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
